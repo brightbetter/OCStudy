@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BWCustomScrollViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self presentViewController:[BWCustomScrollViewController new] animated:YES completion:nil];
 }
 
 

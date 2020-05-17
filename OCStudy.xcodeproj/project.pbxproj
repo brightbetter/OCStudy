@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ACB5689AEC6C04D27339AA0 /* Pods_OCStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86292583EEE8850F33B234DC /* Pods_OCStudy.framework */; };
 		5603067224714CE800FE6C98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603067124714CE800FE6C98 /* AppDelegate.m */; };
 		5603067524714CE800FE6C98 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603067424714CE800FE6C98 /* SceneDelegate.m */; };
 		5603067824714CE800FE6C98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603067724714CE800FE6C98 /* ViewController.m */; };
@@ -14,9 +15,28 @@
 		5603067D24714CEA00FE6C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5603067C24714CEA00FE6C98 /* Assets.xcassets */; };
 		5603068024714CEA00FE6C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5603067E24714CEA00FE6C98 /* LaunchScreen.storyboard */; };
 		5603068324714CEA00FE6C98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603068224714CEA00FE6C98 /* main.m */; };
+		5603069424714E5200FE6C98 /* BWOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603068C24714E5200FE6C98 /* BWOperationTest.m */; };
+		5603069624714E5200FE6C98 /* BWGcdTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603069024714E5200FE6C98 /* BWGcdTest.m */; };
+		5603069724714E5200FE6C98 /* BWThreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603069224714E5200FE6C98 /* BWThreadTest.m */; };
+		5603069B24714E5D00FE6C98 /* BWLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603069A24714E5D00FE6C98 /* BWLock.m */; };
+		5603069F24714E6800FE6C98 /* BWProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603069E24714E6800FE6C98 /* BWProperty.m */; };
+		560306A324714E7500FE6C98 /* BWMethodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306A124714E7500FE6C98 /* BWMethodTest.m */; };
+		560306AB24714E8000FE6C98 /* NSObject+bwSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306A524714E8000FE6C98 /* NSObject+bwSwizzle.m */; };
+		560306AC24714E8000FE6C98 /* UIViewController+psSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306A624714E8000FE6C98 /* UIViewController+psSwizzle.m */; };
+		560306AD24714E8000FE6C98 /* UIViewController+bwSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306AA24714E8000FE6C98 /* UIViewController+bwSwizzle.m */; };
+		560306BA24714E8C00FE6C98 /* BWResponderView4.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306B024714E8C00FE6C98 /* BWResponderView4.m */; };
+		560306BB24714E8C00FE6C98 /* BWResponderView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306B324714E8C00FE6C98 /* BWResponderView3.m */; };
+		560306BC24714E8C00FE6C98 /* BWResponderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306B424714E8C00FE6C98 /* BWResponderViewController.m */; };
+		560306BD24714E8C00FE6C98 /* BWResponderView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306B624714E8C00FE6C98 /* BWResponderView2.m */; };
+		560306BE24714E8C00FE6C98 /* BWResponderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 560306B724714E8C00FE6C98 /* BWResponderViewController.xib */; };
+		560306BF24714E8C00FE6C98 /* BWResponderView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306B924714E8C00FE6C98 /* BWResponderView1.m */; };
+		560306C42471832400FE6C98 /* BWCustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306C32471832400FE6C98 /* BWCustomScrollView.m */; };
+		560306C72471834F00FE6C98 /* BWCustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306C62471834F00FE6C98 /* BWCustomScrollViewController.m */; };
+		560306CA247183CA00FE6C98 /* BWPanGestureOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306C9247183CA00FE6C98 /* BWPanGestureOne.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AFB5E818834D5ED0A690412 /* Pods-OCStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudy.debug.xcconfig"; path = "Target Support Files/Pods-OCStudy/Pods-OCStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		5603066D24714CE800FE6C98 /* OCStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5603067024714CE800FE6C98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5603067124714CE800FE6C98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +49,43 @@
 		5603067F24714CEA00FE6C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5603068124714CEA00FE6C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5603068224714CEA00FE6C98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5603068C24714E5200FE6C98 /* BWOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWOperationTest.m; sourceTree = "<group>"; };
+		5603068D24714E5200FE6C98 /* BWGcdTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGcdTest.h; sourceTree = "<group>"; };
+		5603068E24714E5200FE6C98 /* BWThreadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWThreadTest.h; sourceTree = "<group>"; };
+		5603069024714E5200FE6C98 /* BWGcdTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWGcdTest.m; sourceTree = "<group>"; };
+		5603069124714E5200FE6C98 /* BWOperationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWOperationTest.h; sourceTree = "<group>"; };
+		5603069224714E5200FE6C98 /* BWThreadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWThreadTest.m; sourceTree = "<group>"; };
+		5603069924714E5D00FE6C98 /* BWLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLock.h; sourceTree = "<group>"; };
+		5603069A24714E5D00FE6C98 /* BWLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLock.m; sourceTree = "<group>"; };
+		5603069D24714E6800FE6C98 /* BWProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWProperty.h; sourceTree = "<group>"; };
+		5603069E24714E6800FE6C98 /* BWProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWProperty.m; sourceTree = "<group>"; };
+		560306A124714E7500FE6C98 /* BWMethodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMethodTest.m; sourceTree = "<group>"; };
+		560306A224714E7500FE6C98 /* BWMethodTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMethodTest.h; sourceTree = "<group>"; };
+		560306A524714E8000FE6C98 /* NSObject+bwSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+bwSwizzle.m"; sourceTree = "<group>"; };
+		560306A624714E8000FE6C98 /* UIViewController+psSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+psSwizzle.m"; sourceTree = "<group>"; };
+		560306A724714E8000FE6C98 /* UIViewController+bwSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+bwSwizzle.h"; sourceTree = "<group>"; };
+		560306A824714E8000FE6C98 /* NSObject+bwSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+bwSwizzle.h"; sourceTree = "<group>"; };
+		560306A924714E8000FE6C98 /* UIViewController+psSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+psSwizzle.h"; sourceTree = "<group>"; };
+		560306AA24714E8000FE6C98 /* UIViewController+bwSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+bwSwizzle.m"; sourceTree = "<group>"; };
+		560306AF24714E8C00FE6C98 /* BWResponderView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResponderView2.h; sourceTree = "<group>"; };
+		560306B024714E8C00FE6C98 /* BWResponderView4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResponderView4.m; sourceTree = "<group>"; };
+		560306B124714E8C00FE6C98 /* BWResponderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResponderViewController.h; sourceTree = "<group>"; };
+		560306B224714E8C00FE6C98 /* BWResponderView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResponderView1.h; sourceTree = "<group>"; };
+		560306B324714E8C00FE6C98 /* BWResponderView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResponderView3.m; sourceTree = "<group>"; };
+		560306B424714E8C00FE6C98 /* BWResponderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResponderViewController.m; sourceTree = "<group>"; };
+		560306B524714E8C00FE6C98 /* BWResponderView4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResponderView4.h; sourceTree = "<group>"; };
+		560306B624714E8C00FE6C98 /* BWResponderView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResponderView2.m; sourceTree = "<group>"; };
+		560306B724714E8C00FE6C98 /* BWResponderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWResponderViewController.xib; sourceTree = "<group>"; };
+		560306B824714E8C00FE6C98 /* BWResponderView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResponderView3.h; sourceTree = "<group>"; };
+		560306B924714E8C00FE6C98 /* BWResponderView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResponderView1.m; sourceTree = "<group>"; };
+		560306C22471832400FE6C98 /* BWCustomScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWCustomScrollView.h; sourceTree = "<group>"; };
+		560306C32471832400FE6C98 /* BWCustomScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCustomScrollView.m; sourceTree = "<group>"; };
+		560306C52471834F00FE6C98 /* BWCustomScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWCustomScrollViewController.h; sourceTree = "<group>"; };
+		560306C62471834F00FE6C98 /* BWCustomScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCustomScrollViewController.m; sourceTree = "<group>"; };
+		560306C8247183CA00FE6C98 /* BWPanGestureOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPanGestureOne.h; sourceTree = "<group>"; };
+		560306C9247183CA00FE6C98 /* BWPanGestureOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPanGestureOne.m; sourceTree = "<group>"; };
+		86292583EEE8850F33B234DC /* Pods_OCStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85EA711097499F672879FE2 /* Pods-OCStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudy.release.xcconfig"; path = "Target Support Files/Pods-OCStudy/Pods-OCStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACB5689AEC6C04D27339AA0 /* Pods_OCStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +105,8 @@
 			children = (
 				5603066F24714CE800FE6C98 /* OCStudy */,
 				5603066E24714CE800FE6C98 /* Products */,
+				750319881FE5299804F19D88 /* Pods */,
+				E92F10CA7C0AD37D4EC0C5E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +121,12 @@
 		5603066F24714CE800FE6C98 /* OCStudy */ = {
 			isa = PBXGroup;
 			children = (
+				560306AE24714E8C00FE6C98 /* UI */,
+				560306A424714E8000FE6C98 /* Swizzle */,
+				560306A024714E7500FE6C98 /* Runtime */,
+				5603069C24714E6800FE6C98 /* Property */,
+				5603069824714E5D00FE6C98 /* Lock */,
+				5603068B24714E5200FE6C98 /* 多线程 */,
 				5603067024714CE800FE6C98 /* AppDelegate.h */,
 				5603067124714CE800FE6C98 /* AppDelegate.m */,
 				5603067324714CE800FE6C98 /* SceneDelegate.h */,
@@ -76,6 +142,116 @@
 			path = OCStudy;
 			sourceTree = "<group>";
 		};
+		5603068B24714E5200FE6C98 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				5603068D24714E5200FE6C98 /* BWGcdTest.h */,
+				5603069024714E5200FE6C98 /* BWGcdTest.m */,
+				5603068E24714E5200FE6C98 /* BWThreadTest.h */,
+				5603069224714E5200FE6C98 /* BWThreadTest.m */,
+				5603069124714E5200FE6C98 /* BWOperationTest.h */,
+				5603068C24714E5200FE6C98 /* BWOperationTest.m */,
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
+		5603069824714E5D00FE6C98 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				5603069924714E5D00FE6C98 /* BWLock.h */,
+				5603069A24714E5D00FE6C98 /* BWLock.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		5603069C24714E6800FE6C98 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				5603069D24714E6800FE6C98 /* BWProperty.h */,
+				5603069E24714E6800FE6C98 /* BWProperty.m */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		560306A024714E7500FE6C98 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				560306A224714E7500FE6C98 /* BWMethodTest.h */,
+				560306A124714E7500FE6C98 /* BWMethodTest.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		560306A424714E8000FE6C98 /* Swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				560306A824714E8000FE6C98 /* NSObject+bwSwizzle.h */,
+				560306A524714E8000FE6C98 /* NSObject+bwSwizzle.m */,
+				560306A924714E8000FE6C98 /* UIViewController+psSwizzle.h */,
+				560306A624714E8000FE6C98 /* UIViewController+psSwizzle.m */,
+				560306A724714E8000FE6C98 /* UIViewController+bwSwizzle.h */,
+				560306AA24714E8000FE6C98 /* UIViewController+bwSwizzle.m */,
+			);
+			path = Swizzle;
+			sourceTree = "<group>";
+		};
+		560306AE24714E8C00FE6C98 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				560306C1247182F300FE6C98 /* 自定义scrollview */,
+				560306C0247182E300FE6C98 /* 响应链 */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		560306C0247182E300FE6C98 /* 响应链 */ = {
+			isa = PBXGroup;
+			children = (
+				560306B924714E8C00FE6C98 /* BWResponderView1.m */,
+				560306B224714E8C00FE6C98 /* BWResponderView1.h */,
+				560306AF24714E8C00FE6C98 /* BWResponderView2.h */,
+				560306B624714E8C00FE6C98 /* BWResponderView2.m */,
+				560306B824714E8C00FE6C98 /* BWResponderView3.h */,
+				560306B324714E8C00FE6C98 /* BWResponderView3.m */,
+				560306B524714E8C00FE6C98 /* BWResponderView4.h */,
+				560306B024714E8C00FE6C98 /* BWResponderView4.m */,
+				560306B124714E8C00FE6C98 /* BWResponderViewController.h */,
+				560306B424714E8C00FE6C98 /* BWResponderViewController.m */,
+				560306B724714E8C00FE6C98 /* BWResponderViewController.xib */,
+			);
+			path = "响应链";
+			sourceTree = "<group>";
+		};
+		560306C1247182F300FE6C98 /* 自定义scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				560306C22471832400FE6C98 /* BWCustomScrollView.h */,
+				560306C32471832400FE6C98 /* BWCustomScrollView.m */,
+				560306C52471834F00FE6C98 /* BWCustomScrollViewController.h */,
+				560306C62471834F00FE6C98 /* BWCustomScrollViewController.m */,
+				560306C8247183CA00FE6C98 /* BWPanGestureOne.h */,
+				560306C9247183CA00FE6C98 /* BWPanGestureOne.m */,
+			);
+			path = "自定义scrollview";
+			sourceTree = "<group>";
+		};
+		750319881FE5299804F19D88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFB5E818834D5ED0A690412 /* Pods-OCStudy.debug.xcconfig */,
+				C85EA711097499F672879FE2 /* Pods-OCStudy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E92F10CA7C0AD37D4EC0C5E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86292583EEE8850F33B234DC /* Pods_OCStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5603068624714CEA00FE6C98 /* Build configuration list for PBXNativeTarget "OCStudy" */;
 			buildPhases = (
+				8502EEF3C5873ABD9D5CD4C1 /* [CP] Check Pods Manifest.lock */,
 				5603066924714CE800FE6C98 /* Sources */,
 				5603066A24714CE800FE6C98 /* Frameworks */,
 				5603066B24714CE800FE6C98 /* Resources */,
+				8A3428585EE0C48B7802BCA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560306BE24714E8C00FE6C98 /* BWResponderViewController.xib in Resources */,
 				5603068024714CEA00FE6C98 /* LaunchScreen.storyboard in Resources */,
 				5603067D24714CEA00FE6C98 /* Assets.xcassets in Resources */,
 				5603067B24714CE800FE6C98 /* Main.storyboard in Resources */,
@@ -141,15 +320,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8502EEF3C5873ABD9D5CD4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3428585EE0C48B7802BCA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCStudy/Pods-OCStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCStudy/Pods-OCStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCStudy/Pods-OCStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5603066924714CE800FE6C98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5603067824714CE800FE6C98 /* ViewController.m in Sources */,
+				5603069F24714E6800FE6C98 /* BWProperty.m in Sources */,
 				5603067224714CE800FE6C98 /* AppDelegate.m in Sources */,
+				560306CA247183CA00FE6C98 /* BWPanGestureOne.m in Sources */,
+				5603069724714E5200FE6C98 /* BWThreadTest.m in Sources */,
 				5603068324714CEA00FE6C98 /* main.m in Sources */,
+				560306BB24714E8C00FE6C98 /* BWResponderView3.m in Sources */,
+				560306BD24714E8C00FE6C98 /* BWResponderView2.m in Sources */,
+				560306C72471834F00FE6C98 /* BWCustomScrollViewController.m in Sources */,
+				560306AC24714E8000FE6C98 /* UIViewController+psSwizzle.m in Sources */,
+				560306BF24714E8C00FE6C98 /* BWResponderView1.m in Sources */,
 				5603067524714CE800FE6C98 /* SceneDelegate.m in Sources */,
+				560306AB24714E8000FE6C98 /* NSObject+bwSwizzle.m in Sources */,
+				5603069B24714E5D00FE6C98 /* BWLock.m in Sources */,
+				560306C42471832400FE6C98 /* BWCustomScrollView.m in Sources */,
+				560306AD24714E8000FE6C98 /* UIViewController+bwSwizzle.m in Sources */,
+				5603069624714E5200FE6C98 /* BWGcdTest.m in Sources */,
+				5603069424714E5200FE6C98 /* BWOperationTest.m in Sources */,
+				560306BC24714E8C00FE6C98 /* BWResponderViewController.m in Sources */,
+				560306A324714E7500FE6C98 /* BWMethodTest.m in Sources */,
+				560306BA24714E8C00FE6C98 /* BWResponderView4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +525,7 @@
 		};
 		5603068724714CEA00FE6C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFB5E818834D5ED0A690412 /* Pods-OCStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +543,7 @@
 		};
 		5603068824714CEA00FE6C98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85EA711097499F672879FE2 /* Pods-OCStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
