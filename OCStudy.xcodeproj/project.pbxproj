@@ -33,6 +33,7 @@
 		560306C42471832400FE6C98 /* BWCustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306C32471832400FE6C98 /* BWCustomScrollView.m */; };
 		560306C72471834F00FE6C98 /* BWCustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306C62471834F00FE6C98 /* BWCustomScrollViewController.m */; };
 		560306CA247183CA00FE6C98 /* BWPanGestureOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306C9247183CA00FE6C98 /* BWPanGestureOne.m */; };
+		560306CE2472DB1F00FE6C98 /* BWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 560306CD2472DB1F00FE6C98 /* BWBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,8 @@
 		560306C62471834F00FE6C98 /* BWCustomScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCustomScrollViewController.m; sourceTree = "<group>"; };
 		560306C8247183CA00FE6C98 /* BWPanGestureOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPanGestureOne.h; sourceTree = "<group>"; };
 		560306C9247183CA00FE6C98 /* BWPanGestureOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPanGestureOne.m; sourceTree = "<group>"; };
+		560306CC2472DB1F00FE6C98 /* BWBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWBlock.h; sourceTree = "<group>"; };
+		560306CD2472DB1F00FE6C98 /* BWBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWBlock.m; sourceTree = "<group>"; };
 		86292583EEE8850F33B234DC /* Pods_OCStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85EA711097499F672879FE2 /* Pods-OCStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudy.release.xcconfig"; path = "Target Support Files/Pods-OCStudy/Pods-OCStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +124,7 @@
 		5603066F24714CE800FE6C98 /* OCStudy */ = {
 			isa = PBXGroup;
 			children = (
+				560306CB2472DAFB00FE6C98 /* Block */,
 				560306AE24714E8C00FE6C98 /* UI */,
 				560306A424714E8000FE6C98 /* Swizzle */,
 				560306A024714E7500FE6C98 /* Runtime */,
@@ -233,6 +237,15 @@
 				560306C9247183CA00FE6C98 /* BWPanGestureOne.m */,
 			);
 			path = "自定义scrollview";
+			sourceTree = "<group>";
+		};
+		560306CB2472DAFB00FE6C98 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				560306CC2472DB1F00FE6C98 /* BWBlock.h */,
+				560306CD2472DB1F00FE6C98 /* BWBlock.m */,
+			);
+			path = Block;
 			sourceTree = "<group>";
 		};
 		750319881FE5299804F19D88 /* Pods */ = {
@@ -373,6 +386,7 @@
 				560306CA247183CA00FE6C98 /* BWPanGestureOne.m in Sources */,
 				5603069724714E5200FE6C98 /* BWThreadTest.m in Sources */,
 				5603068324714CEA00FE6C98 /* main.m in Sources */,
+				560306CE2472DB1F00FE6C98 /* BWBlock.m in Sources */,
 				560306BB24714E8C00FE6C98 /* BWResponderView3.m in Sources */,
 				560306BD24714E8C00FE6C98 /* BWResponderView2.m in Sources */,
 				560306C72471834F00FE6C98 /* BWCustomScrollViewController.m in Sources */,
