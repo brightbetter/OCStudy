@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "BWCustomScrollViewController.h"
+//#import "BWSwizzle+bwMethod.h"
+#import "BWCatagoryTest.h"
 
 @interface ViewController ()
 
@@ -18,11 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [BWCatagoryTest test];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self presentViewController:[BWCustomScrollViewController new] animated:YES completion:nil];
 }
 
 
